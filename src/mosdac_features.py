@@ -45,6 +45,13 @@ def inspect(path):
 def read_bt(f):
     """Brightness temperature (K) as a 2-D array, NaN where missing."""
     names = list(f.keys())
+    if "TIR1_BT" in names:                                        # MOSDAC order with "BT" chosen
+        ds = f["TIR1_BT"]
+        bt = np.squeeze(ds[...]).astype("float32")
+        fill = float(np.ravel(ds.attrs.get("_FillValue", -999.0))[0])
+        bt[bt == fill] = np.nan
+        bt[(bt < 150) | (bt > 350)] = np.nan
+        return bt
     temp = f["IMG_TIR1_TEMP"] if "IMG_TIR1_TEMP" in names else None
     if temp is not None and temp.ndim >= 2:                      # BT already as an image
         bt = np.squeeze(temp[...]).astype("float32")
@@ -76,8 +83,35 @@ def scaled(ds):
     return np.squeeze(a)
 
 
+_GRID = {}
+
+
+def mercator_latlon(f):
+    """INSAT L1C ASIA_MER: X/Y in metres on an ellipsoidal Mercator grid (WGS84, standard parallel)."""
+    pi = f["Projection_Information"].attrs
+    a = float(np.ravel(pi["semi_major_axis"])[0]); b = float(np.ravel(pi["semi_minor_axis"])[0])
+    lon0 = float(np.ravel(pi["longitude_of_projection_origin"])[0]); phi_ts = np.radians(float(np.ravel(pi["standard_parallel"])[0]))
+    e = np.sqrt(1 - (b / a) ** 2)
+    k0 = np.cos(phi_ts) / np.sqrt(1 - (e * np.sin(phi_ts)) ** 2)
+    x = f["X"][...].astype("float64"); y = f["Y"][...].astype("float64")
+    lon = lon0 + np.degrees(x / (a * k0))
+    t = np.exp(-y / (a * k0))
+    phi = np.pi / 2 - 2 * np.arctan(t)
+    for _ in range(8):
+        es = e * np.sin(phi)
+        phi = np.pi / 2 - 2 * np.arctan(t * ((1 - es) / (1 + es)) ** (e / 2))
+    lat = np.degrees(phi)
+    lon2, lat2 = np.meshgrid(lon, lat)
+    return lat2, lon2
+
+
 def read_latlon(f, shape):
     """Latitude and longitude for every pixel (2-D arrays)."""
+    if "Projection_Information" in f and "X" in f and "Y" in f:
+        key = (f["X"].shape, f["Y"].shape, float(f["X"][0]), float(f["Y"][0]))
+        if key not in _GRID:
+            _GRID[key] = mercator_latlon(f)
+        return _GRID[key]
     keys = {k.lower(): k for k in f.keys()}
     if "latitude" in keys and "longitude" in keys:
         lat, lon = scaled(f[keys["latitude"]]), scaled(f[keys["longitude"]])

@@ -34,6 +34,16 @@ RI model on 76 unseen test storms (2019–2025), thresholds chosen on 2013–201
 
 The high-confidence mode sent **no false warnings** in either period (22 of 26 test cyclones warned).
 
+## Satellite (INSAT-3DR, MOSDAC)
+
+447 INSAT-3DR IMAGER TIR1 brightness-temperature images (L1C ASIA_MER, 4 km) of six cyclones (Fani, Amphan, Tauktae,
+Yaas, Biparjoy, Michaung) were processed with `src/mosdac_features.py`: for each image, the storm centre from IMD's
+best track is located on the Mercator grid and cloud-top statistics are measured within 200 km and 500 km.
+For Fani (2019) the cold cloud shield within 500 km reached its largest extent (66% of the area below 220 K) at the
+onset of rapid intensification on 29 April. Across the six storms, times followed by RI had a larger cold-cloud share
+within 500 km (58% vs 40%) and colder mean cloud tops (221 K vs 233 K). Only 7 of the 430 matched images fall in RI
+periods, so these are case-study results; `results/satellite/` holds every number.
+
 ## Run it
 
 ```
@@ -53,6 +63,8 @@ Satellite features from MOSDAC INSAT-3DR files: `python3 src/mosdac_features.py 
 - `src/compare_models.py`, `src/improve_model.py`, `src/replay_ensemble.py` model comparison, CV, ablation, ensemble
 - `src/make_figures.py`, `src/build_site_data.py` figures and website data
 - `src/mosdac_features.py` INSAT-3DR TIR1 brightness-temperature features around the storm centre
+- `src/satellite_analysis.py`, `src/sat_figures.py` satellite case-study analysis and figures
+- `results/sms_cost_by_state.csv` SMS volume and cost per fisher household by state
 - `index.html` the live site · `results/` all outputs · `figures/` report figures · `data/` inputs
 
 ## Data and acknowledgements
