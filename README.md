@@ -44,6 +44,14 @@ onset of rapid intensification on 29 April. Across the six storms, times followe
 within 500 km (58% vs 40%) and colder mean cloud tops (221 K vs 233 K). Only 7 of the 430 matched images fall in RI
 periods, so these are case-study results; `results/satellite/` holds every number.
 
+## Reading test with native readers
+
+A Google Form showed the warning SMS in eight languages (Bengali, Odia, Tamil, Telugu, Gujarati, Marathi, Malayalam,
+Kannada) and was shared through IIT Ropar student groups for each state. 105 people responded (12–13 Nov 2026;
+40% have lived in a coastal district). 90% chose the correct action (return to shore immediately), 84% rated the
+urgency clear (4 or 5 of 5, mean 4.27), 94% found the information at least mostly sufficient, 86% rated it effective as
+an official alert (mean 4.30) and 76% said they would act on it (19% maybe). Raw export: `results/survey/form_responses.csv`.
+
 ## Run it
 
 ```
@@ -64,6 +72,7 @@ Satellite features from MOSDAC INSAT-3DR files: `python3 src/mosdac_features.py 
 - `src/make_figures.py`, `src/build_site_data.py` figures and website data
 - `src/mosdac_features.py` INSAT-3DR TIR1 brightness-temperature features around the storm centre
 - `src/satellite_analysis.py`, `src/sat_figures.py` satellite case-study analysis and figures
+- `src/survey_analysis.py` reading-test summary by language and coastal background
 - `results/sms_cost_by_state.csv` SMS volume and cost per fisher household by state
 - `index.html` the live site · `results/` all outputs · `figures/` report figures · `data/` inputs
 

@@ -1,0 +1,118 @@
+﻿Timestamp,Which language do you read best? (choose only 1),Have you ever lived in a Coastal district ?,"According to the message, what should someone who is already at sea do?","How clearly does the message communicate the urgency of the situation?
+Linear scale: 1–5
+1 – Not clear at all
+2 – Slightly clear
+3 – Moderately clear
+4 – Very clear
+5 – Extremely clear",Is the information provided sufficient to understand the warning and its implications?,"If this message were received as an official government emergency alert, how effective do you think it would be in communicating the warning?
+Linear scale: 1–5
+1 – Very ineffective
+2 – Ineffective
+3 – Neither effective nor ineffective
+4 – Effective
+5 – Very effective","If you were a fisher, would you act on this message?"
+12/11/2026 22:02:00,മലയാളം Malayalam,No,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Maybe
+12/11/2026 22:03:07,ಕನ್ನಡ Kannada,No,Return to shore immediately.,4,I cannot determine this.,5,Yes
+12/11/2026 22:03:20,తెలుగు Telugu,No,Return to shore immediately.,4,"Mostly, but some important details are missing.",4,Maybe
+12/11/2026 22:04:09,తెలుగు Telugu,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Maybe
+12/11/2026 22:05:22,తెలుగు Telugu,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Yes
+12/11/2026 22:05:29,മലയാളം Malayalam,No,Return to shore immediately.,4,"Yes, all essential information is provided.",4,Yes
+12/11/2026 22:07:00,ગુજરાતી Gujarati,Yes,Continue fishing while monitoring weather conditions.,5,"Mostly, but some important details are missing.",5,Yes
+12/11/2026 22:07:49,ગુજરાતી Gujarati,Yes,Return to shore immediately.,5,"Mostly, but some important details are missing.",5,Yes
+12/11/2026 22:08:34,ગુજરાતી Gujarati,No,Return to shore immediately.,3,"Mostly, but some important details are missing.",5,Yes
+12/11/2026 22:09:51,ગુજરાતી Gujarati,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Maybe
+12/11/2026 22:10:48,தமிழ் Tamil,No,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Yes
+12/11/2026 22:12:25,తెలుగు Telugu,No,Return to shore immediately.,4,"Yes, all essential information is provided.",4,Yes
+12/11/2026 22:12:49,বাংলা Bengali,No,Return to shore immediately.,5,"No, substantial information is missing.",5,Maybe
+12/11/2026 22:13:05,ଓଡ଼ିଆ Odia,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Maybe
+12/11/2026 22:13:12,ગુજરાતી Gujarati,No,Return to shore immediately.,2,"Yes, all essential information is provided.",5,Yes
+12/11/2026 22:14:05,বাংলা Bengali,No,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Yes
+12/11/2026 22:15:58,ಕನ್ನಡ Kannada,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Yes
+12/11/2026 22:16:37,मराठी Marathi,No,Return to shore immediately.,4,"Yes, all essential information is provided.",5,Yes
+12/11/2026 22:18:26,मराठी Marathi,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Yes
+12/11/2026 22:19:02,മലയാളം Malayalam,No,Return to shore immediately.,5,"Yes, all essential information is provided.",2,Yes
+12/11/2026 22:23:54,বাংলা Bengali,Yes,Wait for further instructions from local authorities.,5,"Mostly, but some important details are missing.",4,Yes
+12/11/2026 22:24:39,தமிழ் Tamil,No,Return to shore immediately.,4,"No, substantial information is missing.",5,Yes
+12/11/2026 22:25:55,ગુજરાતી Gujarati,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Yes
+12/11/2026 22:26:25,తెలుగు Telugu,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,No
+12/11/2026 22:29:31,বাংলা Bengali,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Yes
+12/11/2026 22:32:19,മലയാളം Malayalam,Yes,Return to shore immediately.,4,"Yes, all essential information is provided.",3,Yes
+12/11/2026 22:32:47,తెలుగు Telugu,Yes,Return to shore immediately.,4,"Mostly, but some important details are missing.",3,Yes
+12/11/2026 22:33:22,తెలుగు Telugu,No,Return to shore immediately.,3,"Yes, all essential information is provided.",4,Yes
+12/11/2026 22:35:20,বাংলা Bengali,No,Return to shore immediately.,5,"Mostly, but some important details are missing.",3,Yes
+12/11/2026 22:35:49,বাংলা Bengali,Yes,Return to shore immediately.,1,"Yes, all essential information is provided.",3,Yes
+12/11/2026 22:39:08,ಕನ್ನಡ Kannada,Yes,Return to shore immediately.,4,"Yes, all essential information is provided.",3,Yes
+12/11/2026 22:40:10,ಕನ್ನಡ Kannada,Yes,Wait for further instructions from local authorities.,4,"Mostly, but some important details are missing.",5,Maybe
+12/11/2026 22:41:06,বাংলা Bengali,Yes,Return to shore immediately.,4,"Yes, all essential information is provided.",5,Yes
+12/11/2026 22:41:44,தமிழ் Tamil,Yes,Return to shore immediately.,4,"Yes, all essential information is provided.",4,Yes
+12/11/2026 22:42:31,தமிழ் Tamil,No,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Maybe
+12/11/2026 22:43:50,ଓଡ଼ିଆ Odia,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Yes
+12/11/2026 22:44:02,മലയാളം Malayalam,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",3,Maybe
+12/11/2026 22:45:25,मराठी Marathi,Yes,Return to shore immediately.,3,"Yes, all essential information is provided.",5,Yes
+12/11/2026 22:46:36,മലയാളം Malayalam,No,Return to shore immediately.,2,"Yes, all essential information is provided.",4,No
+12/11/2026 22:48:14,मराठी Marathi,Yes,Return to shore immediately.,3,"Yes, all essential information is provided.",4,Yes
+12/11/2026 22:50:32,தமிழ் Tamil,No,Return to shore immediately.,4,"Yes, all essential information is provided.",5,Yes
+12/11/2026 22:53:53,తెలుగు Telugu,No,Return to shore immediately.,4,"Mostly, but some important details are missing.",1,No
+12/11/2026 22:55:16,मराठी Marathi,No,Return to shore immediately.,4,"Mostly, but some important details are missing.",5,Yes
+12/11/2026 22:55:56,ગુજરાતી Gujarati,No,Return to shore immediately.,4,"Yes, all essential information is provided.",4,Yes
+12/11/2026 22:56:02,ଓଡ଼ିଆ Odia,No,Return to shore immediately.,5,"Mostly, but some important details are missing.",5,Maybe
+12/11/2026 22:57:42,తెలుగు Telugu,Yes,Return to shore immediately.,3,"Yes, all essential information is provided.",4,Yes
+12/11/2026 23:00:54,ଓଡ଼ିଆ Odia,No,Return to shore immediately.,5,"Mostly, but some important details are missing.",4,Yes
+12/11/2026 23:02:08,తెలుగు Telugu,No,Return to shore immediately.,3,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:02:26,ગુજરાતી Gujarati,Yes,Continue fishing while monitoring weather conditions.,5,"Mostly, but some important details are missing.",5,Yes
+12/11/2026 23:03:00,ગુજરાતી Gujarati,No,Return to shore immediately.,4,"Yes, all essential information is provided.",4,Yes
+12/11/2026 23:03:14,मराठी Marathi,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Maybe
+12/11/2026 23:04:02,తెలుగు Telugu,No,Move further away from the coastline.,4,"Mostly, but some important details are missing.",5,Yes
+12/11/2026 23:04:06,मराठी Marathi,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:05:11,मराठी Marathi,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:05:38,বাংলা Bengali,No,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Yes
+12/11/2026 23:07:13,मराठी Marathi,Yes,Return to shore immediately.,3,"Yes, all essential information is provided.",2,Yes
+12/11/2026 23:07:15,ଓଡ଼ିଆ Odia,No,Continue fishing while monitoring weather conditions.,5,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:09:24,తెలుగు Telugu,Yes,Return to shore immediately.,3,"Mostly, but some important details are missing.",5,Yes
+12/11/2026 23:10:42,தமிழ் Tamil,Yes,Move further away from the coastline.,4,"Yes, all essential information is provided.",4,No
+12/11/2026 23:11:41,ଓଡ଼ିଆ Odia,Yes,Return to shore immediately.,4,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:16:55,मराठी Marathi,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:19:17,मराठी Marathi,Yes,Return to shore immediately.,3,"Mostly, but some important details are missing.",4,Maybe
+12/11/2026 23:19:56,മലയാളം Malayalam,No,Return to shore immediately.,4,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:25:01,ଓଡ଼ିଆ Odia,Yes,Return to shore immediately.,4,"Yes, all essential information is provided.",4,Yes
+12/11/2026 23:25:56,தமிழ் Tamil,No,Return to shore immediately.,5,"Yes, all essential information is provided.",3,Yes
+12/11/2026 23:27:21,বাংলা Bengali,No,Return to shore immediately.,4,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:27:40,ગુજરાતી Gujarati,No,Return to shore immediately.,4,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:28:46,తెలుగు Telugu,No,Return to shore immediately.,4,"Yes, all essential information is provided.",2,Yes
+12/11/2026 23:29:05,தமிழ் Tamil,No,Return to shore immediately.,2,"Mostly, but some important details are missing.",3,Maybe
+12/11/2026 23:29:07,తెలుగు Telugu,No,Continue fishing while monitoring weather conditions.,5,"No, substantial information is missing.",4,Yes
+12/11/2026 23:31:29,ગુજરાતી Gujarati,No,Return to shore immediately.,4,"Mostly, but some important details are missing.",5,Maybe
+12/11/2026 23:32:55,ગુજરાતી Gujarati,No,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Yes
+12/11/2026 23:33:34,తెలుగు Telugu,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:33:41,मराठी Marathi,No,Move further away from the coastline.,5,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:35:21,ગુજરાતી Gujarati,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:35:39,ಕನ್ನಡ Kannada,No,Return to shore immediately.,4,"Yes, all essential information is provided.",5,Maybe
+12/11/2026 23:36:29,ଓଡ଼ିଆ Odia,No,Return to shore immediately.,4,"Yes, all essential information is provided.",4,Yes
+12/11/2026 23:37:14,தமிழ் Tamil,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:37:27,ગુજરાતી Gujarati,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Maybe
+12/11/2026 23:40:27,ଓଡ଼ିଆ Odia,Yes,Return to shore immediately.,4,"Yes, all essential information is provided.",5,Maybe
+12/11/2026 23:41:09,मराठी Marathi,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:42:33,ಕನ್ನಡ Kannada,Yes,Return to shore immediately.,5,"Mostly, but some important details are missing.",5,Yes
+12/11/2026 23:42:56,తెలుగు Telugu,Yes,Return to shore immediately.,4,"Mostly, but some important details are missing.",5,Yes
+12/11/2026 23:44:26,മലയാളം Malayalam,No,Return to shore immediately.,5,"Yes, all essential information is provided.",3,Yes
+12/11/2026 23:51:37,മലയാളം Malayalam,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:54:40,বাংলা Bengali,No,Return to shore immediately.,4,"Mostly, but some important details are missing.",4,Yes
+12/11/2026 23:55:18,മലയാളം Malayalam,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",4,No
+12/11/2026 23:56:29,বাংলা Bengali,No,Return to shore immediately.,3,I cannot determine this.,4,Yes
+12/11/2026 23:56:31,मराठी Marathi,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Yes
+12/11/2026 23:57:11,ଓଡ଼ିଆ Odia,No,Return to shore immediately.,4,"Yes, all essential information is provided.",5,Maybe
+12/11/2026 23:57:17,ಕನ್ನಡ Kannada,Yes,Return to shore immediately.,3,"Yes, all essential information is provided.",5,Yes
+12/11/2026 23:57:25,मराठी Marathi,Yes,Continue fishing while monitoring weather conditions.,4,"Yes, all essential information is provided.",4,Yes
+12/11/2026 23:57:50,తెలుగు Telugu,Yes,Return to shore immediately.,4,"Yes, all essential information is provided.",5,Yes
+13/11/2026 00:01:38,മലയാളം Malayalam,No,Return to shore immediately.,5,"No, substantial information is missing.",3,Yes
+13/11/2026 00:02:01,ಕನ್ನಡ Kannada,No,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Yes
+13/11/2026 00:05:33,বাংলা Bengali,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Maybe
+13/11/2026 00:06:18,ଓଡ଼ିଆ Odia,No,Return to shore immediately.,2,"Yes, all essential information is provided.",5,Yes
+13/11/2026 00:07:05,ಕನ್ನಡ Kannada,No,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Maybe
+13/11/2026 00:07:59,తెలుగు Telugu,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Yes
+13/11/2026 00:12:37,मराठी Marathi,Yes,Return to shore immediately.,3,"Yes, all essential information is provided.",5,Yes
+13/11/2026 00:13:44,தமிழ் Tamil,No,Return to shore immediately.,4,"Yes, all essential information is provided.",3,Yes
+13/11/2026 00:15:47,বাংলা Bengali,No,Return to shore immediately.,5,"Yes, all essential information is provided.",5,Yes
+13/11/2026 00:16:36,मराठी Marathi,Yes,Return to shore immediately.,5,"Yes, all essential information is provided.",4,Yes
+13/11/2026 00:17:02,తెలుగు Telugu,No,Return to shore immediately.,4,"Mostly, but some important details are missing.",4,Yes
+13/11/2026 00:20:00,മലയാളം Malayalam,Yes,Return to shore immediately.,4,"Yes, all essential information is provided.",4,Yes

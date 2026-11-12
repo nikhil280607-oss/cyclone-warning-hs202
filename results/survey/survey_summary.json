@@ -1,0 +1,61 @@
+{
+ "n": 105,
+ "first": "2026-11-12 22:02:00",
+ "last": "2026-11-13 00:20:00",
+ "coastal_yes": 42,
+ "correct_action": 0.905,
+ "urgency_mean": 4.27,
+ "urgency_4_5": 0.838,
+ "sufficient_yes": 0.733,
+ "sufficient_yes_or_mostly": 0.943,
+ "effective_mean": 4.3,
+ "effective_4_5": 0.857,
+ "act_yes": 0.762,
+ "act_maybe": 0.19,
+ "act_no": 0.048,
+ "counts_lang": {
+  "Telugu": 19,
+  "Marathi": 17,
+  "Gujarati": 14,
+  "Bengali": 13,
+  "Malayalam": 12,
+  "Odia": 11,
+  "Tamil": 10,
+  "Kannada": 9
+ },
+ "counts_coastal": {
+  "No": 63,
+  "Yes": 42
+ },
+ "counts_action": {
+  "Return to shore immediately.": 95,
+  "Continue fishing while monitoring weather conditions.": 5,
+  "Move further away from the coastline.": 3,
+  "Wait for further instructions from local authorities.": 2
+ },
+ "counts_sufficient": {
+  "Yes, all essential information is provided.": 77,
+  "Mostly, but some important details are missing.": 22,
+  "No, substantial information is missing.": 4,
+  "I cannot determine this.": 2
+ },
+ "counts_act": {
+  "Yes": 80,
+  "Maybe": 20,
+  "No": 5
+ },
+ "counts_urgency": {
+  "1": 1,
+  "2": 4,
+  "3": 12,
+  "4": 37,
+  "5": 51
+ },
+ "counts_effective": {
+  "1": 1,
+  "2": 3,
+  "3": 11,
+  "4": 39,
+  "5": 51
+ }
+}
