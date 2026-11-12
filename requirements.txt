@@ -1,0 +1,5 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+h5py   # only for mosdac_features.py

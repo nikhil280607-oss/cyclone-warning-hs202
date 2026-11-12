@@ -1,0 +1,32 @@
+records used: 7153  (clashing records removed: 19)
+rows with a 24 h target: 5225, RI: 303
+  train: 250 storms, 2693 times, 161 RI
+  val  :  59 storms, 1106 times,  54 RI
+  test :  76 storms, 1413 times,  88 RI
+
+model threshold (chosen on 2013-2018): 0.46
+test 2019-2025: {'precision': 0.17, 'recall': 0.81, 'f1': 0.28, 'false_alarm_times': 346, 'ri_storms_caught': '11 of 14', 'non_ri_storms_with_false_alarm': '27 of 62'}
+
+== replay 2013-2018 (check) ==
+storms: 63, heading for an Indian coast: 37
+cyclones heading for India: 17
+  warned before arrival: 15
+  (SMS only on a fresh RI flag: 14)
+severe cyclones warned: 10 of 11
+first SMS: median 66 h before arrival
+  at 48 h or earlier: 13 of 15
+SMS sent: 38 (one per update: 251)
+false warnings (never 34 kt): 0
+missed: Roanu 2016, Ockhi 2017
+
+== replay 2019-2025 test storms ==
+storms: 83, heading for an Indian coast: 54
+cyclones heading for India: 26
+  warned before arrival: 25
+  (SMS only on a fresh RI flag: 22)
+severe cyclones warned: 19 of 19
+first SMS: median 63 h before arrival
+  at 48 h or earlier: 17 of 25
+SMS sent: 64 (one per update: 396)
+false warnings (never 34 kt): 4
+missed: Asna 2024

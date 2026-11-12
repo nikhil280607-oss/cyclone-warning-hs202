@@ -1,0 +1,84 @@
+storm_id,name,year,peak_kt,coast_at_risk,language,arrival_IST,first_sms_h_before,sms_our_rule,sms_if_every_update,ever_flagged,flagged_in_window
+2019-001,PABUK,2019,45.0,none (not heading for an Indian coast),,,,0,0,1,0
+2019-002,FANI,2019,115.0,Odisha,Odia,03 May 2019 11:30,72.0,3,24,1,1
+2019-003,VAYU,2019,80.0,Gujarat,Gujarati,13 Jun 2019 17:30,72.0,3,23,1,1
+2019-004,,2019,30.0,Odisha,Odia,07 Aug 2019 17:30,,0,0,0,0
+2019-005,HIKKA,2019,75.0,none (not heading for an Indian coast),,,,0,0,1,0
+2019-006,,2019,25.0,none (not heading for an Indian coast),,,,0,0,0,0
+2019-007,KYAAR,2019,130.0,Maharashtra,Marathi,25 Oct 2019 11:30,12.0,1,3,1,1
+2019-008,MAHA,2019,100.0,Gujarat,Gujarati,07 Nov 2019 14:30,72.0,3,21,1,0
+2019-009,BULBUL,2019,75.0,West Bengal,Bengali,09 Nov 2019 23:30,72.0,3,23,1,1
+2019-010,PAWAN,2019,40.0,none (not heading for an Indian coast),,,,0,0,0,0
+2019-011,,2019,30.0,none (not heading for an Indian coast),,,,0,0,1,0
+2019-012,,2019,30.0,none (not heading for an Indian coast),,,,0,0,0,0
+2020-001,AMPHAN,2020,130.0,West Bengal,Bengali,20 May 2020 17:30,72.0,3,24,1,1
+2020-002,,2020,25.0,none (not heading for an Indian coast),,,,0,0,0,0
+2020-003,NISARGA,2020,60.0,Maharashtra,Marathi,03 Jun 2020 14:30,54.0,3,15,1,1
+2020-004,,2020,30.0,Andhra Pradesh,Telugu,13 Oct 2020 08:30,,0,0,0,0
+2020-005,,2020,25.0,none (not heading for an Indian coast),,,,0,0,1,0
+2020-006,,2020,25.0,West Bengal,Bengali,23 Oct 2020 11:30,,0,0,0,0
+2020-007,NIVAR,2020,65.0,Tamil Nadu,Tamil,26 Nov 2020 02:30,45.0,2,15,1,1
+2020-008,GATI,2020,75.0,none (not heading for an Indian coast),,,,0,0,0,0
+2020-009,BUREVI,2020,45.0,Tamil Nadu,Tamil,03 Dec 2020 20:30,63.0,3,17,1,1
+2021-001,,2021,25.0,none (not heading for an Indian coast),,,,0,0,1,0
+2021-002,TAUKTAE,2021,100.0,Gujarat,Gujarati,17 May 2021 23:30,72.0,3,24,1,1
+2021-003,YAAS,2021,75.0,Odisha,Odia,26 May 2021 11:30,60.0,3,19,1,1
+2021-004,,2021,30.0,Odisha,Odia,13 Sep 2021 08:30,,0,0,0,0
+2021-005,GULAB,2021,45.0,Andhra Pradesh,Telugu,26 Sep 2021 20:30,39.0,2,12,1,1
+2021-006,SHAHEEN,2021,60.0,none (not heading for an Indian coast),,,,0,0,1,0
+2021-007,,2021,25.0,none (not heading for an Indian coast),,,,0,0,0,0
+2021-008,,2021,25.0,Tamil Nadu,Tamil,11 Nov 2021 23:30,,0,0,0,0
+2021-009,,2021,25.0,Tamil Nadu,Tamil,19 Nov 2021 05:30,,0,0,0,0
+2021-010,JAWAD,2021,40.0,Odisha,Odia,05 Dec 2021 17:30,54.0,2,10,1,1
+2022-001,,2022,30.0,Tamil Nadu,Tamil,06 Mar 2022 05:30,,0,0,0,0
+2022-002,,2022,30.0,none (not heading for an Indian coast),,,,0,0,1,0
+2022-003,ASANI,2022,55.0,Andhra Pradesh,Telugu,11 May 2022 23:30,72.0,3,22,1,1
+2022-004,,2022,25.0,none (not heading for an Indian coast),,,,0,0,1,0
+2022-005,,2022,25.0,Gujarat,Gujarati,16 Jul 2022 17:30,,0,0,0,0
+2022-006,,2022,25.0,none (not heading for an Indian coast),,,,0,0,0,0
+2022-007,,2022,25.0,none (not heading for an Indian coast),,,,0,0,0,0
+2022-008,,2022,25.0,West Bengal,Bengali,14 Aug 2022 11:30,,0,0,0,0
+2022-009,,2022,30.0,West Bengal,Bengali,19 Aug 2022 20:30,,0,0,0,0
+2022-010,,2022,25.0,none (not heading for an Indian coast),,,,0,0,0,0
+2022-011,SITRANG,2022,45.0,West Bengal,Bengali,24 Oct 2022 20:30,57.0,3,11,1,1
+2022-012,,2022,25.0,Tamil Nadu,Tamil,22 Nov 2022 05:30,,0,0,0,0
+2022-013,MANDOUS,2022,50.0,Tamil Nadu,Tamil,10 Dec 2022 02:30,69.0,3,18,1,1
+2022-014,,2022,30.0,none (not heading for an Indian coast),,,,0,0,1,0
+2022-015,,2022,25.0,Tamil Nadu,Tamil,25 Dec 2022 11:30,,0,0,0,0
+2023-001,,2023,25.0,Tamil Nadu,Tamil,02 Feb 2023 05:30,66.0,1,1,1,1
+2023-002,MOCHA,2023,115.0,none (not heading for an Indian coast),,,,0,0,1,0
+2023-003,BIPARJOY,2023,90.0,Gujarat,Gujarati,15 Jun 2023 23:30,72.0,3,24,1,0
+2023-004,,2023,30.0,West Bengal,Bengali,02 Aug 2023 05:30,21.0,1,2,1,1
+2023-005,,2023,25.0,Maharashtra,Marathi,30 Sep 2023 23:30,12.0,1,2,1,1
+2023-006,TEJ,2023,95.0,none (not heading for an Indian coast),,,,0,0,1,0
+2023-007,HAMOON,2023,65.0,West Bengal,Bengali,24 Oct 2023 11:30,18.0,1,6,1,1
+2023-008,MIDHILI,2023,50.0,West Bengal,Bengali,17 Nov 2023 11:30,6.0,1,2,1,1
+2023-009,MICHAUNG,2023,55.0,Andhra Pradesh,Telugu,05 Dec 2023 14:30,39.0,2,13,1,1
+2024-001,REMAL,2024,60.0,West Bengal,Bengali,26 May 2024 23:30,42.0,2,13,1,1
+2024-002,,2024,25.0,Odisha,Odia,20 Jul 2024 11:30,,0,0,0,0
+2024-003,,2024,30.0,none (not heading for an Indian coast),,,,0,0,0,0
+2024-004,ASNA,2024,40.0,Gujarat,Gujarati,26 Aug 2024 17:30,,0,0,0,0
+2024-005,,2024,25.0,Andhra Pradesh,Telugu,31 Aug 2024 23:30,,0,0,0,0
+2024-006,,2024,30.0,Odisha,Odia,09 Sep 2024 11:30,,0,0,0,0
+2024-007,,2024,25.0,none (not heading for an Indian coast),,,,0,0,0,0
+2024-008,,2024,30.0,West Bengal,Bengali,14 Sep 2024 08:30,,0,0,0,0
+2024-009,,2024,25.0,none (not heading for an Indian coast),,,,0,0,0,0
+2024-010,,2024,25.0,Tamil Nadu,Tamil,16 Oct 2024 23:30,,0,0,0,0
+2024-011,DANA,2024,60.0,Odisha,Odia,25 Oct 2024 05:30,69.0,3,19,1,1
+2024-012,FENGAL,2024,45.0,Tamil Nadu,Tamil,30 Nov 2024 23:30,18.0,1,6,1,1
+2024-013,,2024,25.0,none (not heading for an Indian coast),,,,0,0,0,0
+2025-001,,2025,25.0,Maharashtra,Marathi,24 May 2025 11:30,3.0,1,1,1,1
+2025-002,,2025,30.0,West Bengal,Bengali,29 May 2025 11:30,,0,0,0,0
+2025-003,,2025,20.0,none (not heading for an Indian coast),,,,0,0,0,0
+2025-004,,2025,20.0,none (not heading for an Indian coast),,,,0,0,0,0
+2025-005,,2025,25.0,none (not heading for an Indian coast),,,,0,0,0,0
+2025-006,,2025,25.0,West Bengal,Bengali,25 Jul 2025 08:30,,0,0,0,0
+2025-007,,2025,20.0,Odisha,Odia,19 Aug 2025 05:30,,0,0,0,0
+2025-008,,2025,30.0,Gujarat,Gujarati,07 Sep 2025 05:30,,0,0,0,0
+2025-009,,2025,25.0,Odisha,Odia,27 Sep 2025 05:30,,0,0,0,0
+2025-010,,2025,30.0,Odisha,Odia,02 Oct 2025 17:30,,0,0,0,0
+2025-011,SHAKHTI,2025,60.0,none (not heading for an Indian coast),,,,0,0,1,0
+2025-012,,2025,25.0,Gujarat,Gujarati,31 Oct 2025 23:30,,0,0,1,0
+2025-013,MONTHA,2025,50.0,Andhra Pradesh,Telugu,29 Oct 2025 02:30,69.0,3,18,1,1
+2025-014,SENYAR,2025,40.0,none (not heading for an Indian coast),,,,0,0,1,0
+2025-015,DITWAH,2025,40.0,Tamil Nadu,Tamil,02 Dec 2025 17:30,72.0,1,8,1,0

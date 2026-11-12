@@ -1,0 +1,56 @@
+Logistic regression    done
+Random forest          done
+Gradient boosting      done
+Neural network (MLP)   done
+
+TEST 2019-2025
+                     model  precision  recall    F1    F2  PR_AUC  ROC_AUC  Brier  threshold  flags  false_alarm_times RI_storms_caught nonRI_storms_with_false_alarm
+Rule: +10 kt in last 12 h      0.183   0.625 0.283 0.421   0.138    0.720  0.197       0.50    301                246         11 of 14                      21 of 62
+Climatology (always 5.8%)      0.000   0.000 0.000 0.000   0.062    0.500  0.058       0.99      0                  0          0 of 14                       0 of 62
+      Logistic regression      0.170   0.807 0.281 0.462   0.219    0.842  0.156       0.46    417                346         11 of 14                      27 of 62
+            Random forest      0.208   0.648 0.315 0.455   0.215    0.820  0.067       0.25    274                217          8 of 14                      19 of 62
+        Gradient boosting      0.115   0.841 0.202 0.372   0.190    0.792  0.098       0.07    643                569         10 of 14                      37 of 62
+     Neural network (MLP)      0.119   0.886 0.209 0.387   0.233    0.820  0.138       0.25    657                579         12 of 14                      47 of 62
+
+GROUPED 5-FOLD CV 1982-2018
+                model  PR_AUC_mean  PR_AUC_sd  ROC_AUC_mean  ROC_AUC_sd
+ Logistic regression        0.184      0.079         0.776       0.085
+       Random forest        0.234      0.133         0.783       0.067
+   Gradient boosting        0.209      0.112         0.768       0.088
+Neural network (MLP)        0.154      0.068         0.759       0.063
+
+ABLATION (logistic)
+                            removed  PR_AUC  recall  precision
+                 none (full model)   0.219   0.807      0.170
+               satellite CI number   0.187   0.591      0.187
+           recent intensity change   0.171   0.977      0.079
+current intensity (wind, pressure)   0.184   0.727      0.152
+                          position   0.238   0.670      0.204
+                  season and basin   0.204   0.830      0.152
+
+IMPORTANCE
+               model     feature  PR_AUC_drop     sd
+  Gradient boosting         lat       0.0456 0.0140
+  Gradient boosting   dV_past12       0.0303 0.0061
+  Gradient boosting   dV_past24       0.0265 0.0131
+  Gradient boosting        wind       0.0176 0.0068
+  Gradient boosting       ci_no       0.0134 0.0033
+  Gradient boosting    pressure       0.0089 0.0057
+  Gradient boosting    dV_past6       0.0058 0.0042
+  Gradient boosting arabian_sea       0.0000 0.0000
+  Gradient boosting day_of_year      -0.0032 0.0245
+  Gradient boosting         lon      -0.0381 0.0223
+Logistic regression       ci_no       0.1486 0.0059
+Logistic regression        wind       0.1136 0.0052
+Logistic regression arabian_sea       0.0927 0.0165
+Logistic regression   dV_past24       0.0770 0.0125
+Logistic regression         lon       0.0562 0.0156
+Logistic regression   dV_past12       0.0164 0.0080
+Logistic regression    pressure       0.0098 0.0046
+Logistic regression         lat       0.0063 0.0055
+Logistic regression day_of_year       0.0056 0.0045
+Logistic regression    dV_past6       0.0036 0.0035
+
+BOOTSTRAP 95% CI (logistic, by storm): {'recall': [0.625, 0.924], 'precision': [0.09, 0.253], 'PR_AUC': [0.099, 0.352]}
+
+counts: train 2693 161 val 1106 54 test 1413 88

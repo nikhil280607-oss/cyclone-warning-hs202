@@ -1,0 +1,11 @@
+                        model  val_PR_AUC  val_ROC_AUC  test_PR_AUC  test_ROC_AUC  test_precision  test_recall  test_F2  threshold  RI_storms_caught  RI_storms
+    LR+RF ensemble base+extra       0.173        0.781        0.272         0.844           0.192        0.648    0.439       0.39                 9         14
+                RF base+extra       0.170        0.825        0.206         0.825           0.177        0.614    0.411       0.21                 8         14
+LR+RF+HGB ensemble base+extra       0.154        0.772        0.242         0.839           0.146        0.784    0.418       0.25                12         14
+                      LR base       0.153        0.725        0.219         0.842           0.170        0.807    0.462       0.46                11         14
+                LR base+extra       0.151        0.740        0.230         0.843           0.170        0.773    0.452       0.47                10         14
+          LR+RF ensemble base       0.149        0.762        0.266         0.849           0.174        0.761    0.454       0.33                11         14
+                      RF base       0.147        0.784        0.211         0.816           0.187        0.682    0.446       0.22                 9         14
+      LR+RF+HGB ensemble base       0.116        0.746        0.239         0.845           0.195        0.727    0.471       0.34                10         14
+               HGB base+extra       0.111        0.740        0.186         0.796           0.130        0.830    0.399       0.09                10         14
+                     HGB base       0.079        0.693        0.190         0.792           0.115        0.841    0.372       0.07                10         14

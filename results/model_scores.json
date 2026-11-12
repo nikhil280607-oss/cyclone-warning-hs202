@@ -1,0 +1,11 @@
+{
+ "threshold": 0.46,
+ "test_scores": {
+  "precision": 0.17026378896882494,
+  "recall": 0.8068181818181818,
+  "f1": 0.2811881188118812,
+  "false_alarm_times": 346,
+  "ri_storms_caught": "11 of 14",
+  "non_ri_storms_with_false_alarm": "27 of 62"
+ }
+}
